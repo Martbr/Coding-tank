@@ -8,7 +8,9 @@ public class medias {
         String select = "harmonica aritimetica sair";
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Ola user, qual tipo de media voce gostaria de realizar? harmonica ou aritimetica. Para sair digite sair ");
+        //não sei pq mas ele entra no IF, então tem que digitar a opcao 2 vezes
+
+        System.out.println("Ola user,qual tipo de media voce gostaria de realizar? harmonica ou aritimetica. Para sair digite sair ");
         String option = sc.next();
 
        if(!option.equals("sair") || !option.equals("harmonica") || !option.equals("aritimetica")){
