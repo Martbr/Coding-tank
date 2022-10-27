@@ -12,7 +12,7 @@ public class medias {
         String option = sc.next();
 
        if(!option.equals("sair") || !option.equals("harmonica") || !option.equals("aritimetica")){
-           System.out.println("Digi uma corect");
+           System.out.println("Digite uma opcao correta: aritimetica, harmonica ou sair");
            option = sc.next();
        }
 
@@ -29,7 +29,11 @@ public class medias {
                 medArit = medArit + numeros[i];
             }
             medArit = (medArit/qtde);
+            System.out.println("Numeros digitados: ");
+            for (int i=0 ; i < numeros.length ; i++){
+            System.out.println(" " +numeros[i]);}
             System.out.println("A media aritimetica e: "+medArit);
+
 
         }else if (option.equals("harmonica")){
         int qtde;
@@ -42,10 +46,14 @@ public class medias {
                 aux = (1.0 / numeros[i]);
                 medHar = medHar + aux;
 
-                System.out.println("valor aux "+ aux);
             }
             medHar = (qtde/medHar);
-            System.out.println("A media harmonica e: "+medHar);
+            System.out.println("Numeros digitados: ");
+            for (int i=0 ; i < numeros.length ; i++){
+                System.out.println(" " +numeros[i]);}
+            System.out.println("A media aritimetica e: "+medHar);
+
+
         }else System.out.println("Obrigado e ate a proxima! ");
     }
 }
