@@ -5,11 +5,18 @@ public class medias {
         int qtd = 0;
         float medArit = 0;
         double aux, medHar = 0;
-
-        Scanner sc = new Scanner(System.in);
         String select = "harmonica aritimetica sair";
+        Scanner sc = new Scanner(System.in);
+
         System.out.println("Ola user, qual tipo de media voce gostaria de realizar? harmonica ou aritimetica. Para sair digite sair ");
         String option = sc.next();
+
+       if(!option.equals("sair") || !option.equals("harmonica") || !option.equals("aritimetica")){
+           System.out.println("Digi uma corect");
+           option = sc.next();
+       }
+
+
 
         if (option.equals("aritimetica")){
         int qtde;
@@ -24,7 +31,7 @@ public class medias {
             medArit = (medArit/qtde);
             System.out.println("A media aritimetica e: "+medArit);
 
-        }if (option.equals("harmonica")){
+        }else if (option.equals("harmonica")){
         int qtde;
             System.out.println("digite a quantidade de numeros inteiros a serem calculados: ");
             qtde = sc.nextInt();
@@ -39,6 +46,6 @@ public class medias {
             }
             medHar = (qtde/medHar);
             System.out.println("A media harmonica e: "+medHar);
-        }
+        }else System.out.println("Obrigado e ate a proxima! ");
     }
 }
