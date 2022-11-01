@@ -1,3 +1,14 @@
+/*Condições de quebra e/ou divisão por 0:
+Tamanho do vetor = -1 (-5)
+Tamanho do vetor = 0 / Divisão por 0 (-5)
+Tamanho do vetor = qwe (-5)
+Tamanho do vetor = 1,2 (-5)
+Com tipo operação diferente ele não solicita para digitar novamente (-5)
+Número = qwe (-5)
+Número = 1,5 (-5)
+Número = 0 / Divisão por 0(-5)
+*/
+
 import java.util.Scanner;
 
 public class medias {
