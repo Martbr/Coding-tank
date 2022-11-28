@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25bbc083-0c73-4bef-8e77-0fe014b1b018" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrabalhoFinalCodingTank.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medias.java" afterDir="false" />
+    <list default="true" id="25bbc083-0c73-4bef-8e77-0fe014b1b018" name="Changes" comment="Trabalhim final comit3 mas tem falha na hora da inserção inicial">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesafioHerrMann.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medias.java" beforeDir="false" afterPath="$PROJECT_DIR$/medias.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TrabalhoFinalCodingTank/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TrabalhoFinalCodingTank/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TrabalhoFinalCodingTank/medias.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TrabalhoFinalCodingTank/medias.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,15 +33,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Bruno/IdeaProjects/TrabalhoFinalCodingTank&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;proofread&quot;
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration name="medias" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medias" />
+}</component>
+  <component name="RunManager" selected="Application.projetoFinalDevMakers">
+    <configuration name="Produtos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Produtos" />
+      <module name="TrabalhoFinalCodingTank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Testing" />
+      <module name="TrabalhoFinalCodingTank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Triangulo_Java" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Triangulo_Java" />
+      <module name="TrabalhoFinalCodingTank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="projetoFinalDevMakers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="projetoFinalDevMakers" />
+      <module name="TrabalhoFinalCodingTank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testeaula" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testeaula" />
       <module name="TrabalhoFinalCodingTank" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -49,7 +83,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.medias" />
+        <item itemvalue="Application.projetoFinalDevMakers" />
+        <item itemvalue="Application.testeaula" />
+        <item itemvalue="Application.Produtos" />
+        <item itemvalue="Application.Triangulo_Java" />
+        <item itemvalue="Application.Testing" />
       </list>
     </recent_temporary>
   </component>
@@ -62,6 +100,35 @@
       <option name="presentableId" value="Default" />
       <updated>1666823041440</updated>
     </task>
+    <task id="LOCAL-00001" summary="Trabalhim final">
+      <created>1666830482499</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666830482499</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Trabalhim final comit1">
+      <created>1666831671096</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666831671096</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Trabalhim final comit2">
+      <created>1666832056302</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666832056302</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Trabalhim final comit3 mas tem falha na hora da inserção inicial">
+      <created>1666832616234</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666832616234</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -74,5 +141,37 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Trabalhim final" />
+    <MESSAGE value="Trabalhim final comit1" />
+    <MESSAGE value="Trabalhim final comit2" />
+    <MESSAGE value="Trabalhim final comit3 mas tem falha na hora da inserção inicial" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trabalhim final comit3 mas tem falha na hora da inserção inicial" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/testeaula.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Menus.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Menus.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
